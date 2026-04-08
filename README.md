@@ -1,11 +1,11 @@
 # Laravel Docker Setup (Nginx + PHP + MySQL)
-{
+
 Project ini adalah setup Laravel menggunakan Docker dengan stack:
 
 - Nginx
 - PHP 8.2 (php-fpm)
 - MySQL
-}
+
 ## 📦 Requirements
 
 Pastikan sudah install:
