@@ -1,5 +1,5 @@
 # Laravel Docker Setup (Nginx + PHP + MySQL)
-{content: 
+{
 Project ini adalah setup Laravel menggunakan Docker dengan stack:
 
 - Nginx
