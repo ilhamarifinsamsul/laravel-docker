@@ -17,18 +17,22 @@ Pastikan sudah install:
 
 - git clone https://github.com/username/laravel-docker.git
 - cd laravel-docker
+  
 ## ⚙️ Setup Project
 
-**- Jalankan Container**
+**1. Jalankan Container**
 
-docker-compose up -d --build
-**- Install Dependency Laravel**
+- docker-compose up -d --build
+
+**2. Install Dependency Laravel**
   
-docker-compose exec app composer install
-**- Copy File Environment**
+- docker-compose exec app composer install
+
+**3. Copy File Environment**
   
-cp src/.env.example src/.env
-**- Setting Database (.env)**
+- cp src/.env.example src/.env
+
+**4. Setting Database (.env)**
   
 Edit file src/.env:
 
@@ -38,12 +42,15 @@ DB_PORT=3306
 DB_DATABASE=laravel_db
 DB_USERNAME=laravel
 DB_PASSWORD=laravel
-**- Generate App Key**
 
-docker-compose exec app php artisan key:generate
-**- Jalankan Migration**
+**5. Generate App Key**
+
+- docker-compose exec app php artisan key:generate
+
+**6. Jalankan Migration**
   
-docker-compose exec app php artisan migrate
+- docker-compose exec app php artisan migrate
+
 ## 🌐 Akses Aplikasi
 
 Buka di browser:
